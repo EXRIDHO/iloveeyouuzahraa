@@ -281,12 +281,13 @@
 <!-- Header and countdown -->
 <header>
   <h1>happy birthday, zahraa! 🎉</h1>
-  <p id="countdown" aria-live="polite" aria-atomic="true">Calculating time since 04 June 2004...</p>
+  <p id="countdown" aria-live="polite" aria-atomic="true">Calculating time since 12 June 2012...</p>
 </header>
 
 <!-- Image gallery -->
 <section class="gallery" aria-label="Birthday photos gallery">
-  <img src="photo1.jpg" alt="zahraa photo 1" onclick="showPopup('karina')" />
+  <img src="photo1.jpg" alt="zahraa photo 1" onclick="showPopup('
+      'zahra')" />
   <img src="photo2.png" alt="zahraa photo 2" onclick="showPopup('zahraa')" />
 
 </section>
@@ -316,7 +317,7 @@
 <script>
   // ====== Countdown since 11 April 2000 =======
   const countdownEl = document.getElementById('countdown');
-  const startDate = new Date(2012, 6, 5, 0, 0, 0); // June is month 5 (0-based)
+  const startDate = new Date(2012, 12, 5, 0, 0, 0); // June is month 5 (0-based)
 
   // Helper function to calculate elapsed time parts
   function elapsedTimeParts(fromDate, toDate) {
